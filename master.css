@@ -1,0 +1,88 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"); */
+
+* {
+    box-sizing: border-box;
+}
+
+.profileimage {
+    display: block;
+    width: 14.5vmax;
+    margin: auto;
+    margin-top: 15px;
+    border: 0.5vw solid white;
+    border-radius: 50%;
+}
+
+.motivation-caption {
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    color: antiquewhite;
+}
+
+.profile-text {
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+    padding: 6px 0px;
+}
+
+.navigation-tabs {
+    background-color: palegreen;
+    border-bottom: 5px solid teal;
+    color: black;
+    border-radius: 0%;
+}
+
+.navigation-tabs-selected,
+.navigation-tabs-selected:focus,
+.navigation-tabs-selected:hover {
+    background-color: teal;
+    border-bottom: 7px solid teal;
+    border-radius: 0%;
+    color: ghostwhite;
+    box-shadow: 0 0 0 0 teal;
+}
+
+#WorkExperience li,
+p {
+    text-align: justify;
+}
+
+/* CSS for Smaller Screens like Mobile */
+@media screen and (max-width: 450px) {
+
+    .profile-name {
+        font-style: italic;
+        font-family: "Georgia", "Helvetica";
+    }
+
+    .profile-text {
+        font-size: 2vmax;
+        font-family: "Montserrat", "Georgia";
+        font-style: italic;
+    }
+
+    .motivation-caption {
+        font-family: "Montserrat", "Georgia";
+        font-style: italic;
+    }
+}
+
+/* CSS for Bigger Screens like Laptops, Desktops */
+@media screen and (min-width: 451px) {
+
+    .profile-name {
+        font-family: cursive;
+    }
+
+    .motivation-caption {
+        font-size: 2.1vmax;
+    }
+}
