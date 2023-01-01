@@ -1,2 +1,2 @@
 # abhishek.github.io
-Personalized Website
+A GIT Repository to host my personalized website in Github Pages.
