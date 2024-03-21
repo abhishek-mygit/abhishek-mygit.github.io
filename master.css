@@ -55,6 +55,12 @@ p {
     text-align: justify;
 }
 
+li.list-heading {
+    font-weight: 400;
+    text-decoration: underline;
+    margin-top: 13px;
+}
+
 /* CSS for Smaller Screens like Mobile */
 @media screen and (max-width: 450px) {
 
